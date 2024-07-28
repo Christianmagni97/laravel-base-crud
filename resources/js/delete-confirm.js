@@ -1,4 +1,5 @@
 const deleteForms=document.querySelectorAll('form.animal-destroy');
+
 deleteForms.forEach((deleteFormElement) => {
     deleteFormElement.addEventListener('submit',function( event ){
         event.preventDefault();
